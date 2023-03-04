@@ -1,0 +1,50 @@
+.bodyOfPage{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyOfPage .container{
+    display: none;
+    height: 30vh;
+}
+
+.textToSee{
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.typeText{
+    width: inherit;
+    padding:5vh 2vw;
+}
+
+.typeText input{
+    width: inherit;
+}
+
+.typeText input:focus{
+    border:none;
+    outline:none;
+}
+
+#done{
+    color: rgb(0, 190, 0);
+}
+.redIt{
+    color: red;
+}
+
+.timer h2{
+    color: blue;
+}
+.timer{
+    margin-bottom: 10vh !important;
+}
+
+#h2OfTimer{
+    display: none;
+}
